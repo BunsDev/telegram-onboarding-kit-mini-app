@@ -3,6 +3,7 @@
     "version": "0.0.0",
     "scripts": {
         "*** Your app ***": "",
+        "bdev": "turbo run build --scope @tok/app &&turbo run dev --scope @tok/app",
         "dev": "turbo run dev --scope @tok/app",
         "build": "turbo run build --scope @tok/app",
         "*********************************************": "",
